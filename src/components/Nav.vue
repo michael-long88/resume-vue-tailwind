@@ -37,6 +37,8 @@
               <router-link to="/" class="menu-link text-sm">Home</router-link>
               <p class="mx-auto text-3xl">|</p>
               <router-link to="/skills" class="menu-link text-sm">Skills</router-link>
+              <p class="mx-auto text-3xl">|</p>
+              <router-link to="/experience" class="menu-link text-sm">Experience</router-link>
             </div>
           </div>
         </div>
@@ -51,8 +53,9 @@
     <div :class="[menuToggle ? 'block sm:block' : 'hidden sm:hidden']">
       <div class="px-2 pt-2 pb-3 space-y-1 font-cinzel  ">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <router-link to="/" class="menu-link text-base">Home</router-link> |
+        <router-link to="/" class="menu-link text-base">Home</router-link>
         <router-link to="/skills" class="menu-link text-base">Skills</router-link>
+        <router-link to="/experience" class="menu-link text-base">Experience</router-link>
       </div>
     </div>
   </nav>

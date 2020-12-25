@@ -7,6 +7,9 @@ module.exports = {
         nunito: ['nunito', 'sans'],
         cinzel: ['cinzel', 'sans-serif'],
         lora: ['lora', 'sans-serif']
+      },
+      listStyleType: {
+        square: 'square'
       }
     },
     container: {
