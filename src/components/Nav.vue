@@ -26,16 +26,17 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
+          <p class="menu-link-text text-white m-auto font-cinzel">Michael Long's Resume</p>
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="hidden sm:block sm:ml-6">
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 font-cinzel">
               <p class="menu-link-text text-white my-auto">Michael Long's Resume</p>
               <p class="mx-auto text-3xl">|</p>
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <router-link to="/" class="menu-link text-sm">Home</router-link>
               <p class="mx-auto text-3xl">|</p>
-              <router-link to="/about" class="menu-link text-sm">About</router-link>
+              <router-link to="/skills" class="menu-link text-sm">Skills</router-link>
             </div>
           </div>
         </div>
@@ -48,10 +49,10 @@
       Menu open: "block", Menu closed: "hidden"
     -->
     <div :class="[menuToggle ? 'block sm:block' : 'hidden sm:hidden']">
-      <div class="px-2 pt-2 pb-3 space-y-1">
+      <div class="px-2 pt-2 pb-3 space-y-1 font-cinzel  ">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <router-link to="/" class="menu-link text-base">Home</router-link> |
-        <router-link to="/about" class="menu-link text-base">About</router-link>
+        <router-link to="/skills" class="menu-link text-base">Skills</router-link>
       </div>
     </div>
   </nav>
