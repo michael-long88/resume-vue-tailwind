@@ -32,12 +32,12 @@
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4 font-cinzel">
               <p class="menu-link-text text-white my-auto">Michael Long's Resume</p>
-              <p class="mx-auto text-3xl">|</p>
+              <p class="mx-auto text-3xl text-gray-400">|</p>
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <router-link to="/" class="menu-link text-sm">Home</router-link>
-              <p class="mx-auto text-3xl">|</p>
+              <p class="mx-auto text-3xl text-gray-400">|</p>
               <router-link to="/skills" class="menu-link text-sm">Skills</router-link>
-              <p class="mx-auto text-3xl">|</p>
+              <p class="mx-auto text-3xl text-gray-400">|</p>
               <router-link to="/experience" class="menu-link text-sm">Experience</router-link>
             </div>
           </div>

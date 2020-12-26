@@ -20,16 +20,26 @@ export default {
   data () {
     return {
       jobs: {
+        'RTI International': [
+          {
+            position: 'Software Developer',
+            timeline: '01/2020 - Present',
+            responsibilities: [
+              'Creating data visualization dashboards using Vue.js.',
+              'Using Python to process data for use in visualizations.'
+            ]
+          }
+        ],
         'Consultants to Government and Industry (CGI)': [
           {
             position: 'Software Developer',
             timeline: '02/2019 - 01/2020',
             responsibilities: [
-              'Using Kafka to parse JSON messages containing health care claim information.',
-              'Creating Python unit test framework for parser program.',
-              'Creating Python scripts to ease daily workflow.',
-              'Cultivating better programming practices.',
-              'Utilizing Agile methodologies in a team environment.'
+              'Used Python and Kafka to parse JSON messages containing health care claim information.',
+              'Created Python unit test framework for parser program.',
+              'Created Python scripts to ease daily workflow.',
+              'Cultivated better programming practices.',
+              'Utilized Agile methodologies in a team environment.'
             ]
           },
           {
@@ -56,7 +66,7 @@ export default {
             ]
           },
           {
-            position: 'Client Support Tech Asst II',
+            position: 'Client Support Tech Asst I',
             timeline: '11/2016 - 09/2017',
             responsibilities: [
               'Assisted faculty and students in resolving technical issues ranging from password resets to network issues.',

@@ -31,7 +31,6 @@ export default {
   },
   methods: {
     isArray: (element) => {
-      console.log(element)
       return Array.isArray(element)
     }
   }
