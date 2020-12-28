@@ -1,5 +1,5 @@
 <template>
-  <div class="flex lg:h-screen w-full">
+  <div class="flex lg:h-screen w-full dark:text-gray-300">
     <div class="m-auto pt-4 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-8">
       <div class="m-auto">
         <img class="rounded-md" alt="headshot" src="../assets/Long_Michael_510.jpg">

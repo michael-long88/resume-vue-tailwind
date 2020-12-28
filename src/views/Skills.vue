@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex dark:text-gray-300">
     <div class="lg:grid lg:grid-cols-3 lg:grid-rows-2">
       <SkillList
         v-for="(skillList, skillHeader) in skills"

@@ -1,7 +1,7 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <nav class="bg-gray-800">
-    <div class="max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -42,6 +42,25 @@
             </div>
           </div>
         </div>
+        <div class="block">
+          <div class="ml-4 flex items-center md:ml-6">
+            <button @click="toggleDarkMode" class="focus:outline-none transition duration-200 ease-out p-2 relative text-gray-50 dark:text-purple-500 bg-gray-50 dark:bg-purple-500 bg-opacity-12.5 rounded-full">
+              <svg fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 overflow-visible">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+              </svg>
+            </button>
+            <!-- <svg class="w-6 h-6 mr-2" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+              <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
+              <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-500 cursor-pointer"></label>
+            </div>
+            <svg class="w-6 h-6" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+            </svg> -->
+          </div>
+        </div>
       </div>
     </div>
 
@@ -62,12 +81,29 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
   name: 'Nav',
   data () {
     return {
       menuToggle: false
     }
+  },
+  methods: {
+    ...mapActions([
+      'toggleTheme'
+    ]),
+    toggleDarkMode () {
+      this.toggleTheme()
+    }
   }
 }
 </script>
+<style scoped>
+/* CHECKBOX TOGGLE SWITCH */
+/* @apply rules for documentation, these do not work as inline style */
+.toggle-checkbox:checked {
+  @apply: right-0 border-gray-900;
+  right: 0;
+}
+</style>
