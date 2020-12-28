@@ -1,5 +1,5 @@
 <template>
-  <div class="flex dark:text-gray-300">
+  <div class="flex-grow overflow-auto max-h-screen dark:text-gray-300">
     <div class="lg:grid lg:grid-cols-1 lg:grid-rows-1">
       <JobList
         v-for="(jobPositions, company) in jobs"

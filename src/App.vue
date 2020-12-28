@@ -1,16 +1,19 @@
 <template>
-  <div id="app">
+  <div id="app" class="flex flex-col min-h-screen">
     <Nav />
     <router-view/>
+    <Footer />
   </div>
 </template>
 <script>
 import Nav from '@/components/Nav.vue'
+import Footer from '@/components/Footer.vue'
 import { mapGetters } from 'vuex'
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Footer
   },
   computed: {
     ...mapGetters({ theme: 'getTheme' })

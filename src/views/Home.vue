@@ -1,5 +1,5 @@
 <template>
-  <div class="flex lg:h-screen w-full dark:text-gray-300">
+  <div class="flex-grow overflow-auto max-h-screen w-full dark:text-gray-300">
     <div class="m-auto pt-4 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-8">
       <div class="m-auto">
         <img class="rounded-md" alt="headshot" src="../assets/Long_Michael_510.jpg">
@@ -9,7 +9,7 @@
       </div>
       <div class="lg:col-span-2 mx-auto lg:h-8">
         <p class="text-base text-center lg:text-2xl">
-          <a href="mailto:michael.long@mlong.me" target="_blank">Email</a>
+          <a href="mailto:michael.long@mlong.me">Email</a>
           &nbsp;|&nbsp;
           <a href="https://www.linkedin.com/in/michael-long88/" target="_blank">LinkedIn</a>
           &nbsp;|&nbsp;

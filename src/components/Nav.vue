@@ -44,7 +44,7 @@
         </div>
         <div class="block">
           <div class="ml-4 flex items-center md:ml-6">
-            <button @click="toggleDarkMode" class="focus:outline-none transition duration-200 ease-out p-2 relative text-gray-50 dark:text-purple-500 bg-gray-50 dark:bg-purple-500 bg-opacity-12.5 rounded-full">
+            <button @click="toggleDarkMode" class="focus:outline-none transition duration-200 ease-out p-2 relative text-gray-50 dark:text-purple-500 bg-gray-50 dark:bg-purple-500 bg-opacity-12.5 rounded-full" aria-label="Dark mode toggle">
               <svg fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 overflow-visible">
                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
               </svg>
