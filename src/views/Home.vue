@@ -15,7 +15,7 @@
           &nbsp;|&nbsp;
           <a href="https://github.com/michael-long88" target="_blank">GitHub</a>
           &nbsp;|&nbsp;
-          <a :href="`${publicPath}LongMichael_WebResume.pdf`" download>Resume</a>
+          <a href="/files/LongMichael_WebResume.pdf" download>Resume</a>
         </p>
       </div>
     </div>
@@ -25,11 +25,6 @@
 <script>
 
 export default {
-  name: 'Home',
-  data () {
-    return {
-      publicPath: process.env.BASE_URL
-    }
-  }
+  name: 'Home'
 }
 </script>
