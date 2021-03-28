@@ -14,6 +14,8 @@
           <a href="https://www.linkedin.com/in/michael-long88/" target="_blank">LinkedIn</a>
           &nbsp;|&nbsp;
           <a href="https://github.com/michael-long88" target="_blank">GitHub</a>
+          &nbsp;|&nbsp;
+          <a href="LongMichael_WebResume.pdf" target="_blank">Resume</a>
         </p>
       </div>
     </div>

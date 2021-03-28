@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home'
 import Skills from '../views/Skills'
 import Experience from '../views/Experience'
-import Resume from '../views/Resume'
 
 Vue.use(VueRouter)
 
@@ -22,11 +21,6 @@ const routes = [
     path: '/experience',
     name: 'Experience',
     component: Experience
-  },
-  {
-    path: '/resume',
-    name: 'Resume',
-    component: Resume
   }
 ]
 
