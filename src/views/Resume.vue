@@ -1,12 +1,12 @@
 <template>
   <div class="flex-grow overflow-auto max-h-screen w-full dark:text-gray-300">
     <div class="m-auto h-screen">
-      <div v-if="darkModePDF">
+      <!-- <div v-if="darkModePDF">
         <embed id="resume" src="LongMichael_WebResume_PhoneDarkMode.pdf" type="application/pdf" class="h-screen w-full">
       </div>
-      <div v-else>
+      <div v-else> -->
         <embed id="resume" src="LongMichael_WebResume.pdf" type="application/pdf" class="h-screen w-full">
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -23,7 +23,6 @@ export default {
   computed: {
     ...mapGetters({ theme: 'getTheme' }),
     darkModePDF () {
-      // if (this.windowWidth < 1200 && this.theme === 'dark') {
       if (this.windowWidth < 1200 && this.theme === 'dark') {
         return true
       }
@@ -34,13 +33,13 @@ export default {
     handleResize () {
       this.windowWidth = window.innerWidth
     }
+  },
+  created () {
+    window.addEventListener('resize', this.handleResize)
+    this.handleResize()
+  },
+  destroyed () {
+    window.removeEventListener('resize', this.handleResize)
   }
-  // created () {
-  //   window.addEventListener('resize', this.handleResize)
-  //   this.handleResize()
-  // },
-  // destroyed () {
-  //   window.removeEventListener('resize', this.handleResize)
-  // }
 }
 </script>
