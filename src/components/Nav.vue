@@ -39,6 +39,8 @@
               <router-link to="/skills" class="menu-link text-sm">Skills</router-link>
               <p class="mx-auto text-3xl text-gray-400">|</p>
               <router-link to="/experience" class="menu-link text-sm">Experience</router-link>
+              <p class="mx-auto text-3xl text-gray-400">|</p>
+              <router-link to="/resume" class="menu-link text-sm">Resume</router-link>
             </div>
           </div>
         </div>
@@ -65,6 +67,7 @@
         <router-link to="/" class="menu-link text-base">Home</router-link>
         <router-link to="/skills" class="menu-link text-base">Skills</router-link>
         <router-link to="/experience" class="menu-link text-base">Experience</router-link>
+        <router-link to="/resume" class="menu-link text-base">Resume</router-link>
       </div>
     </div>
   </nav>
