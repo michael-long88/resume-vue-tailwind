@@ -1,12 +1,12 @@
 <template>
   <div class="flex-grow overflow-auto max-h-screen w-full dark:text-gray-300">
     <div class="m-auto h-screen">
-      <!-- <div v-if="darkModePDF">
+      <div v-show="darkModePDF">
         <embed id="resume" src="LongMichael_WebResume_PhoneDarkMode.pdf" type="application/pdf" class="h-screen w-full">
       </div>
-      <div v-else>
+      <div v-show="!darkModePDF">
         <embed id="resume" src="LongMichael_WebResume.pdf" type="application/pdf" class="h-screen w-full">
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
