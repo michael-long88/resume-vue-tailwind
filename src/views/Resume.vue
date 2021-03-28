@@ -2,7 +2,7 @@
   <div class="flex-grow overflow-auto max-h-screen w-full dark:text-gray-300">
     <div class="m-auto h-screen">
       <div v-if="darkModePDF">
-        <object id="resume" data="LongMichael_WebResume_PhoneDarkMode.pdf" type="application/pdf" width="100%" height="850em">
+        <object id="resume" data="LongMichael_WebResume_PhoneDarkMode.pdf" type="application/pdf" class="h-screen w-full">
           <p>It appears you don't have a PDF plugin for this browser.
             No worries... you can <a :href="`${publicPath}LongMichael_WebResume.pdf`" target="_blank" class="resume-link">click here to
             download the PDF file.</a>
@@ -10,7 +10,7 @@
         </object>
       </div>
       <div v-else class="max-h-screen">
-        <object id="resume" data="LongMichael_WebResume.pdf" type="application/pdf" width="100%" class="h-screen">
+        <object id="resume" data="LongMichael_WebResume.pdf" type="application/pdf" class="h-screen w-full">
           <p>It appears you don't have a PDF plugin for this browser.
             No worries... you can <a :href="`${publicPath}LongMichael_WebResume.pdf`" target="_blank" class="resume-link">click here to
             download the PDF file.</a>
