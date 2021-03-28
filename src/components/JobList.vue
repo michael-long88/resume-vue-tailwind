@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="grid grid-cols-1 lg:grid-cols-2 px-8 pt-4 font-lora">
-      <header class="mx-auto pb-4 text-2xl lg:text-3xl font-bold underline lg:col-span-2 mx-8">
+      <header class="mx-auto pb-4 text-2xl lg:text-3xl font-bold underline lg:col-span-2">
         {{ header }}
       </header>
       <div v-for="(position, index) in positions" :key="index" class="lg:mx-20">
