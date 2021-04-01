@@ -9,4 +9,7 @@
   html {
     @apply dark:bg-gray-600
   }
+  .main-body {
+    @apply flex-1 overflow-y-auto p-5
+  }
 }
