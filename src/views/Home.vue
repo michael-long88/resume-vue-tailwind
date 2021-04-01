@@ -15,7 +15,7 @@
           &nbsp;|&nbsp;
           <a href="https://github.com/michael-long88" target="_blank">GitHub</a>
           &nbsp;|&nbsp;
-          <a href="assets/LongMichael_WebResume.pdf" download>Resume</a>
+          <a href="michael_long_resume.pdf" download>Resume</a>
         </p>
       </div>
     </div>
