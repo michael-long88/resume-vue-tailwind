@@ -5,6 +5,7 @@ import store from './store'
 
 import './assets/styles/index.css'
 import './assets/styles/nav.css'
+import './assets/styles/body.css'
 
 Vue.config.productionTip = false
 
