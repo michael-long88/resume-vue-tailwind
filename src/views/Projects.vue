@@ -13,6 +13,12 @@
         :description="projects.debt.description"
         :urls="projects.debt.urls"
       />
+      <ProjectCard
+        :cardName="projects.rnltk.projectTitle"
+        :startColumn="3"
+        :description="projects.rnltk.description"
+        :urls="projects.rnltk.urls"
+      />
     </div>
   </div>
 </template>
