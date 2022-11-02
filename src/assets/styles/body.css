@@ -16,6 +16,7 @@
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+  transform: rotateX(0deg);
 }
 .flip-back {
   transform: rotateY(180deg);
