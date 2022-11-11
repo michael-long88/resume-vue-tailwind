@@ -1,8 +1,20 @@
 export const jobsList = {
+  'Institute of Advanced Analytics, NC State University': [
+    {
+      position: 'M.S. Candidate in Analytics',
+      timeline: '06/2022 - 05/2023',
+      responsibilities: [
+        'Cover various statistical concepts such as linear regression, logistic regression, time series, text analysis, and machine learning.',
+        'Conduct network and sentiment analysis on two years of social media forum text data.',
+        'Build machine learning models using Python to predict forum thread length and duration based on entities and user interaction.',
+        'Develop dynamic visualizations in open-source software to clearly communicate results.'
+      ]
+    }
+  ],
   'RTI International': [
     {
       position: 'Software Developer',
-      timeline: '01/2020 - Present',
+      timeline: '01/2020 - 06/2022',
       responsibilities: [
         'Working with teams of data scientists, statisticians, and researchers to develop and maintain web-based applications for data visualization using Python and Vue.js.',
         'Using Python to process data for use in visualizations.',
