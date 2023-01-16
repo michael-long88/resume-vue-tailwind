@@ -11,7 +11,7 @@ export const projectList = {
   dnd: {
     projectTitle: 'D&D Tavern Calculator',
     urls: [
-      'https://dnd-tavern-calculator.herokuapp.com/',
+      'https://dnd-tavern-tools.com/',
       'https://github.com/michael-long88/dnd-tools'
     ],
     description: 'Orginally created for a D&D 5e campaign to manage earnings from a player-owned tavern. This tool has since been expanded to include: a currency calculator, a reference page with various tables, and an in-progress spell lookup page. ' +
